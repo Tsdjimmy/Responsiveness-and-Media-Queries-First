@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Registration Page</title>
-        <link href="../style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <div class="main">
-    <!-- <div class="info-header"><strong>Try it for free</strong> then $20/mo. thereafter</div> -->
-    <div class="row">
-        <div class="info-col-right">            
-            <p class="info-header"><strong>Try it for free</strong> then $20/mo. thereafter</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"  href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="text-axis">
+            <h2 class="head">Learn to code by <br>watching others</h2>
+            <p class="body">See how experienced developers solve problems in real-time.<br>
+             Watching scripted tutorials is great, but understanding how<br>
+             developers think is invaluable.
+            </p>
         </div>
-
-    </div>
-    <div class="row">
-        <div class="column">
-            <h1 class="heading">Learn to code by watching others</h1>
-            <br>
-            <div class="p-description">See how experience developers solve problems in real-time.
-                Watching scripted tutorials is great, but understanding how developers think is invaluable.
+        <div class="frm">
+            <div class="try">
+                <button class="btn1"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+            </div>
+            <div class="reg-col"> 
+               <form class="registration">
+                  <input type="text"  placeholder="First Name" required>
+                  <input type="text" placeholder="Last Name" required>
+                  <input type="email" placeholder="Email Address" required>
+                  <input type="password" placeholder="Password" required>
+                  <button class="btn2"><strong>Claim Your Free Trial</strong></button>
+                  <p class="text">By clicking the button you are agreeing to our <strong class="red">Terms and Services</strong></p>
+               </form>
             </div>
         </div>
-        <div class="column col-right">
-            <!-- border: 2px solid blue -->
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Password">
-            <input type="submit" value="CLAIM YOUR FREE TRIAL">
-            <p class="terms">By clicking this button, you are agreeing to our <strong><a href="#">Terms and Services.</a></strong></p>
-        </div>
-    </div>
-
-        </div>
-        
-    </body>
+    </main>
+</body>
 </html>
